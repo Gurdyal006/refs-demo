@@ -1,6 +1,6 @@
 import NoProjectImage from "../assets/no-projects.png";
 import Button from "./Button";
-export default function NoProjectSelected({ onStartProject }) {
+export default function NoProjectSelected({ onStartProject, onCancelProject }) {
   return (
     <div className="mt-24 text-center mx-auto">
       <img
